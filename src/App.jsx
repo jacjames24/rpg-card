@@ -305,13 +305,13 @@ export default function App() {
                 ── ACTIVE QUEST ──
               </div>
               <div style={{ fontSize: "13px", color: "#ffe0b2", fontFamily: "'Crimson Text', serif", fontStyle: "italic" }}>
-                "The Next Chapter"
+                "The Endless Grind"
               </div>
               <div style={{ fontSize: "11px", color: "rgba(255,224,178,0.6)", marginTop: "4px", lineHeight: 1.5 }}>
-                Seeking new Engineering paths beyond Rakuten. Build the AI assistant. Level up the portfolio.
+                Staying the course at Rakuten. Explore coding and AI on the side. Level up management skills.
               </div>
               <div style={{ display: "flex", gap: "6px", marginTop: "8px" }}>
-                {["Job Hunt", "AI Chatbot", "DSA Grind"].map((q) => (
+                {["AI Tinkering", "Code Exploration", "Manager Arc"].map((q) => (
                   <span key={q} style={{
                     fontSize: "9px", padding: "3px 7px",
                     background: "rgba(255,183,77,0.1)", border: "1px solid rgba(255,183,77,0.2)",
